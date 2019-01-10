@@ -1,0 +1,44 @@
+﻿<!--By: Thomas Liu & Brayden Naumovski-->
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel='stylesheet' type='text/css' href="style.css" />
+    <title>To-do List</title>
+
+</head>
+
+<header>
+    <a href="index.html">Home</a>
+    &nbsp&nbsp&nbsp
+    <a href="index2.html">Sort Alphabetically</a>
+    &nbsp&nbsp&nbsp
+    <a href="index3.html">Sort Alphabetically Backwards</a>
+</header>
+
+<body background="bg.jpg">
+    <script src="script.js"></script>
+    <center>
+        <br><br><br><br><br>
+        <font size="100">To-Do List</font>
+        <br><br><br>
+
+        <p>Name of Task</p>
+        <input type="text" id="taskInput" class="inputField">
+        <br>
+        <p>Due Date</p>
+        <input type="text" id="dateInput" class="inputField">
+        <br>
+        <p>Notes</p>
+        <input type="text" id="noteInput" class="inputField">
+        <br>
+        <br>
+
+        <button onclick="addTask()">Add Task</button>
+    </center>
+
+    <p id="taskList"></p>
+</body>
+</html>
